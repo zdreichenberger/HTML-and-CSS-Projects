@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="./css/one_page_website.css">
+<!--Start of Nav Bar Styling-->
+<style>
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 20px;
+}
+
+.topnav li {
+	display: inline;
+	padding-left: 30px;
+}
+
+<!--This is wrong use of html comment, but I can't figure out 
+how to make my logo image look like this without, this comment error?-->
+
+.logo-image {
+	width: 10px;
+	height: 10px;
+	border-radius: 10%;
+	margin-top: -6px;
+}
+</style>
+<!--End of Nav Bar Styling-->
+
+<!--Start of Gallery Photos Styling-->
+<style>
+.gallery_title {
+	font-size: 50px;
+	font-family: Brush Script MT;
+	text-align: center;
+	color: white;
+	background-color: #2F4F4F;
+}
+div.gallery {
+	border: 2px solid #ccc;
+	border radius: 10%;
+	
+}
+
+div.gallery:hover {
+	border: 2px solid #777;
+}
+
+div.gallery imag {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.responsive {
+	padding: 0 6px;
+	float: left;
+	
+}
+</style>
+
+
+<!--Start of Footer Styling-->
+.site-footer {
+	color: black;
+}
+
+#footer-content {
+	background: black;
+}
+
+.footer_1 {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.footer_2 {
+	text-align: center;
+	font-size: 10px;
+	color: white;
+}
+
+.footer_3 {
+	text-align: center;
+	font-size: 10px;
+	color: white;
+}
+<!--End of Footer Styling-->
+
+</style>
+</head>
+<!--Start of Nav Bar HTML-->
+<div class="topnav">
+	<li><a class="active" href="#setupappointment">Set Up Appointment</a></li>
+	<li><a href="#gallery">Gallery</a></li>
+	<li><a href="#home">Home</a></li>
+<!--Nav bar logo HTML-->
+	<div class="logo-image">
+		<img src="images/navbar_image.jpg" alt="Bug Doctor Logo">
+	</div>
+</div>
+</head>
+<body>
+
+<!--Start of Gallery Box HTMl-->
+<p class="gallery_title">Gallery</p>
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_ant.jpg">
+			<img src="images/thumbnail_ant.jpg" alt="Ant attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_flea.jpg">
+			<img src="images/thumbnail_flea.jpg" alt="Flea attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_spider.jpg">
+			<img src="images/thumbnail_spider.jpg" alt="Spider attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_bedbug.jpg">
+			<img src="images/thumbnail_bedbug.jpg" alt="Bedbug attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_fly.jpg">
+			<img src="images/thumbnail_fly.jpg" alt="Fly attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_cockroach.jpg">
+			<img src="images/thumbnail_cockroach.jpg" alt="Cockroach attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_termite.jpg">
+			<img src="images/thumbnail_termite.jpg" alt="Termite attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_tick.jpg">
+			<img src="images/thumbnail_tick.jpg" alt="Tick attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_paper_wasp.jpg">
+			<img src="images/thumbnail_paper_wasp.jpg" alt="Wasp attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<div class="responsive">
+	<div class="gallery">
+		<a target="_blank" href="images/thumbnail_earwig.jpg">
+			<img src="images/thumbnail_earwig.jpg" alt="Earwig attack!" width="100" height="100">
+		</a>
+	</div>
+</div>
+
+<!--Start of Reservations HTML-->
+<div class="container">
+	<h1>RESERVATIONS</h1>
+	<h3> Stop being bugged! <br>
+		Book your appointment today!
+	</h3>
+	<h6>Please provide us with your basic contact information.</h6>
+  <form class="label">
+    
+    <input type="text" id="fname" name="firstname" placeholder="First Name">
+
+    <input type="text" id="lname" name="lastname" placeholder="Last Name">
+	<input type="text" placeholder="Phone Number">
+	<input type="text" placeholder="E-Mail">
+	<div class="submit">
+		<input type="submit" value="Submit">
+	</div>
+   
+  </form>
+  <h6>Terms and Conditions</h6>
+</div>
+<!--End of Reservations HTML-->
+
+<!--Start of Footer HTML-->
+<!--Footer; to include: phone number (lg), address, email -->
+</body>
+<div>
+	<img class="main_body_image">
+		<img src="images/main_body_image.jpg" alt="Your Bug Doctor in Action">
+</div>
+
+<footer class="site-footer">
+	<div id="footer-content">
+		<p class="footer_1">(541) 266-9193</p>
+		<p class="footer_2">208 Crystal Way, Yakima, WA 98908</p>
+		<p class="footer_3">Zach@thebugdoctor.com</p>
+	</div>
+</footer>
+<!--End of Footer HTML-->
+
+</html>

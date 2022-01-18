@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"
+	<body>
+		<h1>NBAs Best Players Table</h1>
+		<table style="width:100%">
+			<tr>
+				<th>Name</th>
+				<th>Team</th>
+				<th>Points Per Game</th>
+				<th>Assits Per Game</th>
+				<th>Rebounds Per Game</th>
+			</tr>
+			<tr>
+				<td>Stephen Curry</td>
+				<td>Warriors</td>
+				<td>27.0</td>
+				<td>6.8</td>
+				<td>6.2</td>
+			</tr>
+			<tr>
+				<td>Kevin Durrant</td>
+				<td>Nets</td>
+				<td>27.6</td>
+				<td>6.5</td>
+				<td>6.1</td>
+			</tr>
+		</table>
+	</body>
+</html>

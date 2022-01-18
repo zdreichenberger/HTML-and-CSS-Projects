@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+	<body>
+	<h1 style="text-align:center;">Groceries List Table</h1>	
+	<p>
+		<ul>
+			<li>egg</li><br>
+			<li>fruit<br>
+				<ol>
+					<li>apples</li><br>
+					<li>cherries</li><br>
+					<li>strawberries</li>
+				</ol>
+			</li>
+			<li>cookies</li>
+		</ul>
+				
+	</body>
+	<link rel="stylesheet" type="text/css" href="html_lists.css">
+</html>

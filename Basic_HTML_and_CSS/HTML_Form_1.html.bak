@@ -1,0 +1,9 @@
+<form action="" method="get">
+	<em>First name: <input type="text" name="First_Name"><br></em>
+	<em>Last name: <input type="text" name="Last_Name"><br></em>
+	<em>Height: <input type="text" name="Height"><br></em>
+	<em>Weight: <input type="text" name="Weight"><br></em>
+	<a href="https://www.medindia.net/patients/calculators/framesize1.asp" target="_blank">
+		<button>""</button>
+	</a>
+</form>

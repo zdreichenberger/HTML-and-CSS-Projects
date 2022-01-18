@@ -1,0 +1,19 @@
+<!doctype = html>
+<html lang = "en">
+	<head>
+		<title>Basic HTML and CSS</title>
+	</head>
+	<body>
+		<h1><u> Basic HTML & CSS design</u></h1>
+		<style> h1 {text-align:left; color:green}</style
+				
+		
+		<div style="color: black>
+			<h2>"Roses are Red"</h2></div>
+			<link rel="stylesheet" type="text/css" href="Basic_CSS_1.css">
+			<p>Roses are red!<br>
+			Violets are blue!
+			</p>
+		</div>
+	</body>
+</html>

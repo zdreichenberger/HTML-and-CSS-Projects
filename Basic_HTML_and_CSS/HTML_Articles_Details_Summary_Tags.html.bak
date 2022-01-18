@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<article>
+	<details>
+		<summary>Mt. Bachelor</summary>
+			<p>Mt. Bachelor is a stratovolcano rising atop a volcanic shield in the Cascade Range.<br>
+			Located in Central Oregon, approximately 22 miles west of Bend, experience world-class <br>
+			skiing, snowboarding, moutain biking, and more.</p>
+	</details>
+</article>
+
+
+<article>
+	<details>
+		<summary>Mt. Hood</summary>
+			<p>Mt. Hood is a potentially active stratovolcano in the Cascade Volcanic Arc.<br>
+			It was formed by a subduction zone on the Pacific coast and rests in the Pacific Northwest <br>
+			region of the United States. It is located about 50 miles east-southeast of Portland, <br>
+			on the border between Clackamas and Hood River counties.
+			</p>
+	</details>
+</article>
+</html>

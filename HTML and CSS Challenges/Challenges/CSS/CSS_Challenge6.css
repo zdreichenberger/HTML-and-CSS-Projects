@@ -1,0 +1,113 @@
+/* Navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: bisque;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /*Positions navbar at the top of the page */
+    width:100%;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: darkkhaki;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+#home {
+    padding-top: 4rem;
+}
+
+.text-top-right {
+    position: absolute;
+    top: 300px;
+    right: 325px;
+    color: white;
+    font-weight: bold;
+}
+
+.image-center {
+    filter: grayscale(100%) drop-shadow(8px 8px 10px black);
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+
+/* Allows for entire table to be aligned/moved */
+.table-container {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.table-center {
+    text-align: center;
+    vertical-align: middle;
+    vertical-align: middle;
+    padding: 8px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.colored-header {
+    background-color: bisque;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10 px;
+}
+
+/* Two Column Layout */
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+   float: center;
+   width: 40%;
+   padding-left: 100px;
+   background-color: bisque;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.column h2 {
+    text-align: left;
+}
+
+.column h2:hover {
+    color: brown;
+    cursor: pointer;
+}
+/* Clear floats after the columns */
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-left: 100px;
+}

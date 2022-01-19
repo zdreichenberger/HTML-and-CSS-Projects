@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Laney's Blooming Boutique</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<header>
+			<h1 style="text-align:center">Laney's Blooming Boutique</h1>
+			<p style="text-align:center">Your local flower shop with Southern hospitality<br>
+			and a little Pacific Northwest flare.</p>
+		</header>
+	
+		<!--Nav-->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery" id="link"><li>GALLERY</li></a>
+					<a href="#contact" id="link"><li>RESERVATIONS</li></a>
+				</ul>
+			</div>
+		</div>
+		<!--End Nav-->
+		
+		<!--Home-->
+		<div id="home">
+			<div>
+				<div>
+					<span>Laney's Blooming Boutique</span>
+				</div>
+			</div>
+		</div>
+		<!--End Home-->
+		
+		<!--GALLERY-->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+				<div>
+			
+					<!--PHOTO-CONTAINER 1-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_1.jpg" alt="Image of a Snake Plant ">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have a wide selection of flora and fauna , pick up your plant baby today.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 1-->
+					
+		
+					<!--PHOTO-CONTAINER 2-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_2.jpg" alt="Image of a Aloe Vera Plant">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have a wide selection of flora and fauna , pick up your plant baby today.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 2-->
+					
+					<!--PHOTO-CONTAINER 3-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_3.jpg" alt="Image of a Passion Flower Plant">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have a wide selection of flora and fauna , pick up your plant baby today.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 3-->
+					
+					<!--PHOTO-CONTAINER 4-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_4.jpg" alt="Image of a Paddle Plant">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have a wide selection of flora and fauna , pick up your plant baby today.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 4-->
+					
+					<!--PHOTO-CONTAINER 5-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_5.jpg" alt="Image of a Pregnant Onion Plant">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have a wide selection of flora and fauna , pick up your plant baby today.</p>
+							</div
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 5-->
+					
+					<!--PHOTO-CONTAINER 6-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_6.jpg" alt="Image of a Lady Palm Plant">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have a wide selection of flora and fauna , pick up your plant baby today.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 6-->
+					
+					<!--PHOTO-CONTAINER 7-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_7.jpg" alt="Image of a Persian Shield Plant">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have a wide selection of flora and fauna , pick up your plant baby today.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 7-->
+					
+					<!--PHOTO-CONTAINER 8-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_8.jpg" alt="Image of a Calamondin Orange Plant">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have a wide selection of flora and fauna , pick up your plant baby today.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 8-->
+					
+					<!--PHOTO-CONTAINER 9-->
+					<div>
+						<div>
+							<img src="./images/thumb/thumbnail_9.jpg" alt="Image of a Parlour Maple Plant">
+							<div>
+								<h3>Click to Enlarge</h3>
+								<p>We have a wide selection of flora and fauna , pick up your plant baby today.</p>
+							</div>
+						</div>
+					</div>
+					<!--END PHOTO-CONTAINER 9-->
+				</div>
+			</div>
+		</section>
+		<!--END GALLERY-->
+		
+		<!--RVSP-->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>Reservations</h1>
+					<div>
+						<h3><span>Your home jungle is just around the bend.</span>
+							<br> Reserve your speciality plants today!
+						</h3>
+						<p>
+							Please provide us with your basic contact information.
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</section>			
+		<!--END RSVP-->
+
+		<!--FOOTER-->
+		<div>
+			www.laney'sbloomingboutique.com &nbsp;|&nbsp; &copy; 2021
+		<div>
+		<!--END FOOTER-->
+		
+	</body>
+</html>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
